@@ -13,3 +13,20 @@ const divide = function (a: number, b: number): number {
 const message = (msg: string): void => {
   console.log(msg);
 };
+
+const todaysWeather = {
+  date: new Date(),
+  weather: "sunny"
+};
+
+const logWeather = ({
+  date,
+  weather
+}: {
+  date: Date;
+  weather: string;
+}): void => {
+  console.log({ date });
+  console.log({ weather });
+};
+logWeather(todaysWeather);
