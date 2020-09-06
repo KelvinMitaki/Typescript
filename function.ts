@@ -9,3 +9,7 @@ function multiply(a: number, b: number): number {
 const divide = function (a: number, b: number): number {
   return a / b;
 };
+
+const message = (msg: string): void => {
+  console.log(msg);
+};
