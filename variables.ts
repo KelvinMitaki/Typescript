@@ -19,3 +19,6 @@ const myFunc: (i: number) => void = (i: number) => {
   console.log(i);
 };
 myFunc(3);
+
+const myArr = '{"x":10,"y":20,"z":30}';
+const parsedArr: { x: number; y: number; z: number } = JSON.parse(myArr);
